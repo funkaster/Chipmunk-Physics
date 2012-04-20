@@ -66,6 +66,6 @@ char*
 cpvstr(const cpVect v)
 {
 	static char str[256];
-	sprintf(str, "(% .3f, % .3f)", v.x, v.y);
+	sprintf(str, "(%.3f, %.3f)", v.x, v.y);
 	return str;
 }
